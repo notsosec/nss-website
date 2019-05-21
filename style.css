@@ -1,0 +1,46 @@
+body {
+    background: rgb(0, 0, 0);
+    font-family: 'Baloo Bhai', cursive;
+}
+header {
+    color: white;
+    text-align: center;
+    background: rgb(15, 15, 15);
+    padding: 50px;
+    border-radius: 10px;
+    border-bottom: 7px solid rgb(54, 54, 54);
+}
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+header a {
+    color: rgb(75, 188, 233);
+}
+header h2 {
+    font-size: 30px;
+}
+header p {
+    margin-top: -10px;
+    font-size: 20px;
+}
+#Content {
+    color: white;
+    text-align: center;
+    background: rgb(15, 15, 15);
+    padding: 50px;
+    border-radius: 10px;
+    border-bottom: 7px solid rgb(54, 54, 54);
+    margin-top: 20px;
+}
+#Content a {
+    color: white;
+    text-decoration: none;
+}
+#Content .Member {
+    display: inline-block;
+    margin: 0 20px;
+}
+#Content .Member img {
+    width: 300px;
+}
