@@ -39,8 +39,53 @@ header p {
 }
 #Content .Member {
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 40px;
 }
 #Content .Member img {
     width: 300px;
+    border-radius: 30px;
+}
+#Content p {
+    margin-top: -30px;
+}
+#Github {
+    border: 3px solid rgb(55, 170, 55);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition:background .5s;
+    width: 400px;
+    margin-right: 20px;
+}
+
+#Github:hover {
+    background: rgb(55, 170, 55);
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition:background .5s;
+}
+#Discord {
+    border: 3px solid #7289DA;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition:background .5s;
+    width: 400px;
+}
+
+#Discord:hover {
+    background: #7289DA;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition:background .5s;
+}
+.Links {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.Links img {
+    width: 100px;
 }
