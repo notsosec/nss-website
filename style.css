@@ -1,0 +1,101 @@
+body {
+    background: rgb(0, 0, 0);
+    font-family: 'Baloo Bhai', cursive;
+}
+header {
+    color: white;
+    text-align: center;
+    background: rgb(15, 15, 15);
+    padding: 50px;
+    border-radius: 10px;
+    border-bottom: 7px solid rgb(54, 54, 54);
+}
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+header a {
+    color: rgb(75, 188, 233);
+}
+header h2 {
+    font-size: 30px;
+}
+header p {
+    margin-top: -10px;
+    font-size: 20px;
+}
+.Content {
+    color: white;
+    text-align: center;
+    background: rgb(15, 15, 15);
+    padding: 50px;
+    border-radius: 10px;
+    border-bottom: 7px solid rgb(54, 54, 54);
+    margin-top: 20px;
+}
+.Content a {
+    color: white;
+    text-decoration: none;
+}
+.Content .Member {
+    display: inline-block;
+    margin: 0 40px;
+}
+.Content .Member img {
+    width: 300px;
+    border-radius: 30px;
+}
+.Content p {
+    margin-top: -30px;
+}
+#Github {
+    border: 3px solid rgb(55, 170, 55);
+    padding: 20px;
+    border-radius: 10px;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition:background .5s;
+    width: 400px;
+    margin: 0 20px;
+}
+
+#Github:hover {
+    background: rgb(55, 170, 55);
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition:background .5s;
+}
+#Discord {
+    border: 3px solid #7289DA;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition:background .5s;
+    width: 400px;
+}
+
+#Discord:hover {
+    background: #7289DA;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition:background .5s;
+}
+.Links {
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.Links img {
+    width: 100px;
+}
+
+#footer {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
